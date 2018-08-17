@@ -1,0 +1,25 @@
+{
+    "name": "audios-api",
+    "version": "1.0.0",
+    "description": "Audios API",
+    "main": "index.js",
+    "private": true,
+    "engines": {
+      "node": ">=7.6.0"
+    },
+    "scripts": {
+      "dev": "nodemon",
+      "lint": "eslint {src,test,config}/**/*.js"
+    },
+    "repository": {},
+    "author": "Caio Almeida <caio.f.amd@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.15.2",
+      "body-parser": "^1.17.1"
+    },
+    "devDependencies": {
+      "eslint": "^4.7.2",
+      "nodemon": "^1.18.0"
+    }
+}

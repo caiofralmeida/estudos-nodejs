@@ -1,0 +1,11 @@
+version: '2.1'
+services:
+  api:
+    build: .
+    image: "audios-api"
+    ports:
+      - "5001:5001"
+    command: "sh -c 'yarn && npm run dev'"
+    volumes:
+      - ./.:/app
+    env_file: .env
